@@ -1,6 +1,6 @@
 import React from 'react'
-import Carousell from './Carousell'
-import Knowmore from './Knowmore'
+import Carousell from '../Carousell'
+import Knowmore from '../Knowmore'
 
 const Home = () => {
     return (

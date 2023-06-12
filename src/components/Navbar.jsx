@@ -23,8 +23,8 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between h-20 text-center bg-red-600 text-black w-full sm:items-end sm:justify-end'>
-        <div className='float-left'><a href='/'><img className='w-40 h-12 pl-20' src={image} alt='logo'/></a></div>
+    <div className='flex justify-between h-20 text-center bg-red-600 text-black w-full'>
+        <div className='float-left'><a href='/'><img className='sm:w-40 sm:h-12 sm:pl-20' src={image} alt='logo'/></a></div>
         <ul className='float-right flex'>
             {NAV_ITEMS.map((item, i) => (
               <li key={i} className={`hover:font-bold hover:text-white hover:cursor-pointer h-full flex items-end px-2 pb-4 border-x-white ${(selectedNavElement === i) ? 'bg-gray-800' : ''}`}><Link to={item.path} onClick={(e) => clickedNav(e)} >{item.name}</Link></li>

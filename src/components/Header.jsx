@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <header>
-            <div className='flex flex-row justify-between text-xs  h-5 items-center w-full sm:text-base'>
+            <div className='flex flex-row justify-between text-xs  h-5 items-center w-full'>
                 <div>
                     <span className='p-2'>
                         <b>MobileNo:</b>7303678465/8169940998</span>
