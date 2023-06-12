@@ -4,7 +4,7 @@ import Knowmore from '../Knowmore'
 
 const Home = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-black sm:w-full'>
             <Carousell/>
             <Knowmore/>
         </div>
