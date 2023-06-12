@@ -2,8 +2,8 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <div className='flex justify-center py-10 px-60'>
-            <div className='bg-black text-left text-white pl-10 py-6 pr-8 w-full'>
+        <div className=' py-10 px-60 w-full right-0'>
+            <div className='flex flex-col justify-center bg-black text-left text-white pl-10 py-6 pr-8 '>
                 <h1 className='pb-2 font-bold text-xl'>SERVICES</h1>
                 <ol className=' list-decimal	'>
                     <li className='text-xs pb-3'>Buying and Selling Of Used Cars</li>

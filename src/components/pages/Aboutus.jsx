@@ -3,7 +3,7 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <div className=' flex justify-center py-10 px-60 '>
-        <div className=' flex flex-col bg-black text-left text-white p-8 mx-auto h-80' width="600" height="450">
+        <div className=' flex flex-col bg-black text-left text-white p-8 mx-auto h-80 '>
             <h1 className='pb-2 font-bold text-xl '>ABOUT US</h1>
             <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quisquam repellendus nobis, quaerat minus, ea labore ducimus eveniet quibusdam officia vel culpa nostrum eligendi impedit repellat? Illo autem veniam aperiam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quisquam repellendus nobis, quaerat minus, ea labore ducimus eveniet quibusdam officia vel culpa nostrum eligendi impedit repellat? Illo autem veniam aperiam?</p>
             <br/>

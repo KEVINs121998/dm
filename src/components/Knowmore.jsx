@@ -2,8 +2,8 @@ import React from 'react'
 
 const Knowmore = () => {
     return (
-        <div className="flex justify-center sm:py-20 sm:px-48">
-            <div className=" bg-black text-white text-center bg-cover bg-opacity-80 bg-center "  style={{ backgroundImage: 'url(https://wallpaperaccess.com/full/13672.jpg)',opacity: '1',
+        <div className=" bg-black flex justify-center sm:py-20 sm:px-48">
+            <div className="bg-gray-700  text-white text-center bg-cover bg-opacity-80 bg-center "  style={{ backgroundImage: 'url(https://wallpaperaccess.com/full/13672.jpg)',opacity: '1',
         backgroundBlendMode: 'multiply' }} >
                 <h1>WELCOME TO DHUMAL MOTORS</h1>
              <p className='text-center font-extrabold pb-6'>____________________</p>
