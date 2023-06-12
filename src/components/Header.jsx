@@ -14,12 +14,11 @@ const Header = () => {
                         </span>
                     </span>
                 </div>
-                <div>
-                    <span className='px-8'>Total cars in stock :<span className='hover:underline'>
-                            <a href='/cars-stock'>
+                <div className='sm:px-8'>
+                   Total stock :
+                            <a className='hover:underline' href='/cars-stock'>
                                 48</a>
-                        </span>
-                    </span>
+
                 </div>
             </div>
 

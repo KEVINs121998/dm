@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import image from '../images/1.jpg'
+import dm from '../images/dm.jpeg'
 import { Link } from 'react-router-dom'
 
 const NAV_ITEMS = [
@@ -23,11 +23,11 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between h-20 text-center bg-red-600 text-black w-full sm:w-full'>
-        <div className='float-left'><a href='/'><img className='w-40 h-12 pl-20' src={image} alt='logo'/></a></div>
+    <div className='flex justify-between h-20 text-center bg-black text-white w-full sm:w-full'>
+        <div className=' flex items-center pl-10'><a href='/'><img className='w-20 h-15' src={dm} alt='logo'/></a></div>
         <ul className='float-right flex'>
             {NAV_ITEMS.map((item, i) => (
-              <li key={i} className={`hover:font-bold hover:text-white hover:cursor-pointer h-full flex items-end px-2 pb-4 border-x-white ${(selectedNavElement === i) ? 'bg-gray-800' : ''}`}><Link to={item.path} onClick={(e) => clickedNav(e)} >{item.name}</Link></li>
+              <li key={i} className={`hover:font-bold hover:bg-gray-600 hover:text-red-500 hover:cursor-pointer h-full flex items-end px-2 pb-4 border-x-white ${(selectedNavElement === i) ? 'bg-gray-800' : ''}`}><Link to={item.path} onClick={(e) => clickedNav(e)} >{item.name}</Link></li>
             ))}
         </ul>         
     </div>
