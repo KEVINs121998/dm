@@ -5,7 +5,7 @@ const Contactus = () => {
     <div className='flex justify-center py-10 px-60 '>
         <div className='bg-black text-white text-center flex flex-row p-8'>
             <div className='text-left'>
-<h1 className='pb-2 font-bold text-xl'>CONTACT DETAILS</h1>
+<h1 className='pb-2 font-bold text-npm xl'>CONTACT DETAILS</h1>
 <div className='text-xs'>
 <p>Name- Dhumal Motors</p>
 <br/>

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import './index.css';
 import Aboutus from './components/pages/Aboutus';
 import Contactus from './components/Contactus';
+import Services from './components/pages/Services';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
   <Route  path='/' element={<Home/>}/>
   <Route path='/about-us' element={<Aboutus/>}/>
   <Route path='/contact-us' element={<Contactus/>}/>
+  <Route path='/services' element={<Services/>}/>
+
   </Routes>
    <Footer/>
     </div>

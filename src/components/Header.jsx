@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <header>
-            <div className='flex flex-row justify-between text-xs  h-5 items-center w-full'>
+            <div className='flex flex-row justify-between text-xs  h-5 items-center w-full sm:text-base'>
                 <div>
                     <span className='p-2'>
                         <b>MobileNo:</b>7303678465/8169940998</span>
@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
                 <div>
                     <span className='px-8'>Total cars in stock :<span className='hover:underline'>
-                            <a href='/'>
+                            <a href='/cars-stock'>
                                 48</a>
                         </span>
                     </span>
