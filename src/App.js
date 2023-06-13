@@ -7,11 +7,14 @@ import './index.css';
 import Aboutus from './components/pages/Aboutus';
 import Contactus from './components/Contactus';
 import Services from './components/pages/Services';
+import CarDetails from './components/pages/CarDetails';
+
 
 
 function App() {
   return (
     <div className="App">
+      
   <Header/>
   <Navbar/>
   <Routes>
@@ -19,6 +22,7 @@ function App() {
   <Route path='/about-us' element={<Aboutus/>}/>
   <Route path='/contact-us' element={<Contactus/>}/>
   <Route path='/services' element={<Services/>}/>
+  <Route path="cars/:carId" element={<CarDetails />} />
 
   </Routes>
    <Footer/>

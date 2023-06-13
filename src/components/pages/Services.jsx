@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <div className=' py-10 px-60 w-full right-0'>
+        <div className='px-8 py-10 border-3'>
             <div className='flex flex-col justify-center bg-black text-left text-white pl-10 py-6 pr-8 '>
                 <h1 className='pb-2 font-bold text-xl'>SERVICES</h1>
                 <ol className=' list-decimal	'>

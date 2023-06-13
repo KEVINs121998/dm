@@ -3,7 +3,7 @@ import {FaFacebookSquare, FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className='fixed bottom-0 right-0 left-0 items-center bg-red-600'>
+        <footer className='fixed bottom-0 right-0 left-0 items-center xs:w-100 bg-red-600'>
 
             <div className=' flex h-20 items-end justify-end'>
                     <div className='absolute inset-x-0 bottom-0 text-sm text-center dark:text-black'>© Dhumal Motors™. All Rights Reserved.</div>

@@ -11,7 +11,7 @@ import d from '../images/5.jpg'
 const Carousell = () => {
     
   return (
-    <div className=" flex h-80 mx-auto justify-center pt-8 bg-black">
+    <div className=" flex h-100 mx-auto justify-center pt-8 bg-black w-full ">
         <Carousel className="flex justify-center " width="75%" dynamicHeight={false} autoPlay={true} showThumbs={false} showArrows={false} infiniteLoop={true} showStatus={false} >
             <img className="my-auto  h-80"  src={a}  alt="Image1" />
       
