@@ -25,7 +25,7 @@ function App() {
   <Route path="cars/:carId" element={<CarDetails />} />
 
   </Routes>
-   <Footer/>
+   {/* <Footer/> */}
     </div>
   );
 }
