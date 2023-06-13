@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 const NAV_ITEMS = [
   {"name": "Home", "path": "/"},
   {"name": "Car Stock", "path": "/carstock"},
-  {"name": "Sell Car", "path": "/sellcar"},
   {"name": "Services", "path": "/services"},
   {"name": "About Us", "path": "about-us"},
   {"name": "Contact Us", "path": "/contact-us"}]

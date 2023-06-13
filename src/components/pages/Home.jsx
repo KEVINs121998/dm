@@ -1,7 +1,7 @@
 import React from 'react'
-import Carousell from '../Carousell'
-import Knowmore from '../Knowmore'
+import Knowmore from '../Knowmore';
 import { Link } from 'react-router-dom'
+import Carousell from '../Carousell';
 
 const Home = () => {
     const cars = [1,2,3,4,5,6,7,8,9,10];

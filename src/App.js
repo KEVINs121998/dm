@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
 import './index.css';
 import Aboutus from './components/pages/Aboutus';
-import Contactus from './components/Contactus';
+import Contactus from './components/pages/Contactus';
 import Services from './components/pages/Services';
 import CarDetails from './components/pages/CarDetails';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       
-  <Header/>
+  {/* <Header/> */}
   <Navbar/>
   <Routes>
   <Route  path='/' element={<Home/>}/>
