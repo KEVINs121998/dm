@@ -8,6 +8,8 @@ import Aboutus from './components/pages/Aboutus';
 import Contactus from './components/pages/Contactus';
 import Services from './components/pages/Services';
 import CarDetails from './components/pages/CarDetails';
+import Login from './components/pages/Login';
+import Upload from './components/pages/Upload';
 
 
 
@@ -23,9 +25,10 @@ function App() {
   <Route path='/contact-us' element={<Contactus/>}/>
   <Route path='/services' element={<Services/>}/>
   <Route path="cars/:carId" element={<CarDetails />} />
-
+  <Route path='/login' element={<Login/>}/>
+  <Route path='/upload' element={<Upload/>}/>
   </Routes>
-   {/* <Footer/> */}
+   <Footer/>
     </div>
   );
 }

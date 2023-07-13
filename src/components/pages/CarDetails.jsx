@@ -34,32 +34,32 @@ regr:"MH 02",
       <div className='flex flex-row justify-evenly p-4'>
   <div className=' w-1/2  border-2'>
      <ul className='p-4 lg:text-2xl'>
-    <li className='flex justify-between lg:p-3 '>
+    <li key={1} className='flex justify-between lg:p-3 '>
     <span>Price(₹) -</span><span className="ml-10 xs:ml-8 lg:ml-32">{singleCarDetail.price}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={2} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Year -</span><span className="ml-16 xs:ml-12 lg:ml-40">{singleCarDetail.year}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={3} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Owner -</span><span className="ml-12 xs:ml-10 lg:ml-36">{singleCarDetail.owner}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={4} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Insurance -</span><span className="ml-7 xs:ml-3 lg:ml-28">{singleCarDetail.insurance}</span>
   </li>
   </ul>
   </div>
   <div  className='w-1/2  border-2'>
     <ul className='p-4 lg:text-2xl'>
-    <li className='flex justify-between lg:p-3'>
+    <li key={1} className='flex justify-between lg:p-3'>
     <span>Kms -</span><span className="ml-9 xs:ml-8 lg:ml-32">{singleCarDetail.kmsDone}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={2} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Fuel -</span><span className="ml-10 lg:ml-32">{singleCarDetail.fuelType}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={3} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Color -</span><span className="ml-8 lg:ml-28">{singleCarDetail.color}</span>
   </li>
-  <li className='flex justify-between lg:p-3 xs:py-3'>
+  <li key={4} className='flex justify-between lg:p-3 xs:py-3'>
     <span>Regr -</span><span className="ml-9 lg:ml-32">{singleCarDetail.regr}</span>
   </li>
    </ul>
