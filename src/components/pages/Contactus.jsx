@@ -11,6 +11,8 @@ const Contactus = () => {
 <br/>
 <p>Mobile - 7303678465</p>
 <br/>
+<p>Email - dhumalmotors1006@gmail.com</p>
+<br/>
 <p>Address- </p>
 <p>Panom park , office no: 4, Behind, Jeevan Vikas Kendra Marg,</p>
 <p>Vile Parle East, Mumbai, Maharashtra 400057</p>
